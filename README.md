@@ -1,6 +1,6 @@
 <h1 align="center">Uni Games</h1>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c5a01820-2a85-450d-8b09-c97f8da6f052" alt="Imagem da Aplicação" />
+  <img src="https://github.com/user-attachments/assets/a1cc6c0f-8e9f-4cda-8414-caa444cfd31f" alt="Imagem da Aplicação" />
 </div>
 
 <h2 align="center">🚀 Tecnologias</h2>
@@ -17,8 +17,8 @@
 
 </div>
 
-<h2 align="center">💻 Projeto</h2>
+<h2 align="center">💻 Projeto da Faculdade</h2>
 
 <div align="center">
-  A <strong>Uni Games</strong> é uma plataforma de venda de jogos que oferece uma ampla variedade de títulos, com interface intuitiva para facilitar a navegação e compra, exibindo jogos populares, lançamentos e promoções.
+  <p>A <strong>Uni Games</strong> é uma plataforma de venda de jogos que oferece uma ampla variedade de títulos, <br /> com interface intuitiva para facilitar a navegação e compra, exibindo jogos populares, lançamentos e promoções.</p>
 </div>
