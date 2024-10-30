@@ -6,7 +6,7 @@ export function PromotionCard() {
   const [hoverHeart, setHoverHeart] = useState<number | null>(null)
 
   return (
-    <div className="flex gap-10 pt-8">
+    <div className="exl:gap-4 exxl:gap-6 flex gap-10 pt-8">
       {promotion.map((image, index) => (
         <div
           key={index}
@@ -17,7 +17,7 @@ export function PromotionCard() {
           <img
             src={image.imageURL}
             alt=""
-            className="w-[250px] cursor-pointer"
+            className="exxl:w-[250px] exl:w-[180px] w-[250px] cursor-pointer"
           />
 
           {hoverHeart === index && (
@@ -26,10 +26,10 @@ export function PromotionCard() {
             </span>
           )}
 
-          <div className="w-full max-w-[250px] font-medium">
-            <p className="text-lg">{image.title}</p>
+          <div className="exl:w-[180px] exxl:w-[250px] w-full max-w-[250px] font-medium">
+            <p className="exxl:text-xl text-lg">{image.title}</p>
 
-            <span className="flex gap-4">
+            <span className="exxl:text-xl flex gap-4">
               <p className="text-green-400">
                 {Intl.NumberFormat("pt-BR", {
                   style: "currency",
@@ -44,7 +44,7 @@ export function PromotionCard() {
               </p>
             </span>
 
-            <span className="text-blue-100 flex gap-2">
+            <span className="exxl:text-xl flex gap-2 text-blue-100">
               <p>Feedbacks</p>
               <p>({image.feedback})</p>
             </span>

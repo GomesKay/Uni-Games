@@ -25,26 +25,74 @@ export function Home() {
   return (
     <main className="flex flex-col items-center gap-12 py-10 text-white">
       <Carousel>
-        <CarouselContent className="w-[1600px]">
-          <CarouselItem className="flex items-center justify-center space-x-10">
-            <img src={astroBot} alt="Astro Bot" />
-            <img src={NBA} alt="2K25" />
-            <img src={redDead} alt="Red Dead Redemption 2" />
+        <CarouselContent className="w-[1600px] exl:w-[940px] exxl:w-[1350px]">
+          <CarouselItem className="flex items-center justify-center space-x-10 exl:space-x-4 exxl:space-x-8">
+            <img
+              src={astroBot}
+              alt="Astro Bot"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
+            <img
+              src={NBA}
+              alt="2K25"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
+            <img
+              src={redDead}
+              alt="Red Dead Redemption 2"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
           </CarouselItem>
-          <CarouselItem className="flex items-center justify-center space-x-10">
-            <img src={fortnite} alt="Fortnite" />
-            <img src={hogwartsLegacy} alt="Hogwarts Legacy" />
-            <img src={eFootball} alt="eFootball" />
+          <CarouselItem className="flex items-center justify-center space-x-10 exl:space-x-4 exxl:space-x-8">
+            <img
+              src={fortnite}
+              alt="Fortnite"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
+            <img
+              src={hogwartsLegacy}
+              alt="Hogwarts Legacy"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
+            <img
+              src={eFootball}
+              alt="eFootball"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
           </CarouselItem>
-          <CarouselItem className="flex items-center justify-center space-x-10">
-            <img src={RiseOfTheRonin} alt="God Of War Ragnarök" />
-            <img src={horizonZeroDawn} alt="Horizon Zero Dawn" />
-            <img src={silentHill} alt="Silent Hill 2" />
+          <CarouselItem className="flex items-center justify-center space-x-10 exl:space-x-4 exxl:space-x-8">
+            <img
+              src={RiseOfTheRonin}
+              alt="God Of War Ragnarök"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
+            <img
+              src={horizonZeroDawn}
+              alt="Horizon Zero Dawn"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
+            <img
+              src={silentHill}
+              alt="Silent Hill 2"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
           </CarouselItem>
-          <CarouselItem className="flex items-center justify-center space-x-10">
-            <img src={dyingLight} alt="Dying Light" />
-            <img src={fallout} alt="Fallout 4" />
-            <img src={untilDawn} alt="Until Dawn" />
+          <CarouselItem className="flex items-center justify-center space-x-10 exl:space-x-4 exxl:space-x-8">
+            <img
+              src={dyingLight}
+              alt="Dying Light"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
+            <img
+              src={fallout}
+              alt="Fallout 4"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
+            <img
+              src={untilDawn}
+              alt="Until Dawn"
+              className="exl:w-[300px] exxl:w-[420px]"
+            />
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious />
@@ -52,19 +100,25 @@ export function Home() {
       </Carousel>
 
       <div>
-        <h1 className="font-serif text-4xl">Promoções da Semana</h1>
+        <h1 className="font-serif text-4xl exl:text-3xl exxl:text-5xl">
+          Promoções da Semana
+        </h1>
 
         <PromotionCard />
       </div>
 
       <div>
-        <h1 className="font-serif text-4xl">Halloween 2024</h1>
+        <h1 className="font-serif text-4xl exl:text-3xl exxl:text-5xl">
+          Halloween 2024
+        </h1>
 
         <HalloweenCard />
       </div>
 
       <div>
-        <h1 className="font-serif text-4xl">Especial de Natal</h1>
+        <h1 className="font-serif text-4xl exl:text-3xl exxl:text-5xl">
+          Especial de Natal
+        </h1>
 
         <ChristmasCard />
       </div>

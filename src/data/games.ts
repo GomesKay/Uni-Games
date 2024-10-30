@@ -13,7 +13,7 @@ export const promotion = [
     previousPrice: 339,
     feedback: 1054,
     imageURL:
-      "https://image.api.playstation.com/cdn/UP0002/CUSA03005_00/YEP419qhsVjv1qHMcF1B45DqaqMxDf3r.png?w=440&thumb=false",
+      "https://image.api.playstation.com/vulcan/ap/rnd/202405/2921/e84c5527c6f2c1388402e1ede80b9544c137fd5e3329ac44.png?w=440&thumb=false",
   },
   {
     title: "Resident Evil 4 | PS4 e PS5",
