@@ -6,7 +6,7 @@ export function HalloweenCard() {
   const [hoverHeart, setHoverHeart] = useState<number | null>(null)
 
   return (
-    <div className="exl:gap-4 exxl:gap-6 flex gap-10 pt-8">
+    <div className="flex gap-10 pt-8 xxl:gap-4 exl:gap-4 exxl:gap-6">
       {halloween.map((image, index) => (
         <div
           key={index}
@@ -17,7 +17,7 @@ export function HalloweenCard() {
           <img
             src={image.imageURL}
             alt=""
-            className="exxl:w-[250px] exl:w-[180px] w-[250px] cursor-pointer"
+            className="w-[250px] cursor-pointer xxl:w-[140px] exl:w-[180px] exxl:w-[250px]"
           />
 
           {hoverHeart === index && (
@@ -26,10 +26,10 @@ export function HalloweenCard() {
             </span>
           )}
 
-          <div className="exl:w-[180px] exxl:w-[250px] w-full max-w-[250px] font-medium">
-            <p className="exxl:text-xl text-lg">{image.title}</p>
+          <div className="w-full max-w-[250px] font-medium xxl:w-[140px] exl:w-[180px] exxl:w-[250px]">
+            <p className="text-lg exxl:text-xl">{image.title}</p>
 
-            <span className="exxl:text-xl flex gap-4">
+            <span className="flex gap-4 exxl:text-xl">
               <p className="text-green-400">
                 {Intl.NumberFormat("pt-BR", {
                   style: "currency",
@@ -44,7 +44,7 @@ export function HalloweenCard() {
               </p>
             </span>
 
-            <span className="exxl:text-xl flex gap-2 text-blue-100">
+            <span className="flex gap-2 text-blue-100 exxl:text-xl">
               <p>Feedbacks</p>
               <p>({image.feedback})</p>
             </span>

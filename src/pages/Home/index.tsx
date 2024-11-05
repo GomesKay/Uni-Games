@@ -25,73 +25,73 @@ export function Home() {
   return (
     <main className="flex flex-col items-center gap-12 py-10 text-white">
       <Carousel>
-        <CarouselContent className="w-[1600px] exl:w-[940px] exxl:w-[1350px]">
-          <CarouselItem className="flex items-center justify-center space-x-10 exl:space-x-4 exxl:space-x-8">
+        <CarouselContent className="w-[1600px] xxl:w-[650px] exl:w-[940px] exxl:w-[1350px]">
+          <CarouselItem className="flex items-center justify-center space-x-10 xxl:space-x-4 exl:space-x-4 exxl:space-x-8">
             <img
               src={astroBot}
               alt="Astro Bot"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
             <img
               src={NBA}
               alt="2K25"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
             <img
               src={redDead}
               alt="Red Dead Redemption 2"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
           </CarouselItem>
-          <CarouselItem className="flex items-center justify-center space-x-10 exl:space-x-4 exxl:space-x-8">
+          <CarouselItem className="flex items-center justify-center space-x-10 xl:space-x-4 xxl:space-x-4 exl:space-x-4 exxl:space-x-8">
             <img
               src={fortnite}
               alt="Fortnite"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
             <img
               src={hogwartsLegacy}
               alt="Hogwarts Legacy"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
             <img
               src={eFootball}
               alt="eFootball"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
           </CarouselItem>
-          <CarouselItem className="flex items-center justify-center space-x-10 exl:space-x-4 exxl:space-x-8">
+          <CarouselItem className="flex items-center justify-center space-x-10 xl:space-x-4 xxl:space-x-4 exl:space-x-4 exxl:space-x-8">
             <img
               src={RiseOfTheRonin}
               alt="God Of War Ragnarök"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
             <img
               src={horizonZeroDawn}
               alt="Horizon Zero Dawn"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
             <img
               src={silentHill}
               alt="Silent Hill 2"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
           </CarouselItem>
-          <CarouselItem className="flex items-center justify-center space-x-10 exl:space-x-4 exxl:space-x-8">
+          <CarouselItem className="flex items-center justify-center space-x-10 xl:space-x-4 xxl:space-x-4 exl:space-x-4 exxl:space-x-8">
             <img
               src={dyingLight}
               alt="Dying Light"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
             <img
               src={fallout}
               alt="Fallout 4"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
             <img
               src={untilDawn}
               alt="Until Dawn"
-              className="exl:w-[300px] exxl:w-[420px]"
+              className="xxl:w-[200px] exl:w-[300px] exxl:w-[420px]"
             />
           </CarouselItem>
         </CarouselContent>
@@ -100,7 +100,7 @@ export function Home() {
       </Carousel>
 
       <div>
-        <h1 className="font-serif text-4xl exl:text-3xl exxl:text-5xl">
+        <h1 className="font-serif text-4xl xxl:text-2xl exl:text-3xl exxl:text-5xl">
           Promoções da Semana
         </h1>
 
@@ -108,7 +108,7 @@ export function Home() {
       </div>
 
       <div>
-        <h1 className="font-serif text-4xl exl:text-3xl exxl:text-5xl">
+        <h1 className="font-serif text-4xl xxl:text-2xl exl:text-3xl exxl:text-5xl">
           Halloween 2024
         </h1>
 
@@ -116,7 +116,7 @@ export function Home() {
       </div>
 
       <div>
-        <h1 className="font-serif text-4xl exl:text-3xl exxl:text-5xl">
+        <h1 className="font-serif text-4xl xxl:text-2xl exl:text-3xl exxl:text-5xl">
           Especial de Natal
         </h1>
 
