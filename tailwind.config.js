@@ -64,21 +64,63 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
+  		},
+  		keyframes: {
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			}
+  		},
+  		animation: {
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
   		}
   	},
   	fontFamily: {
-  		'sans': ["Archivo Narrow", "serif"],
-  		'serif': ["Bebas Neue", "serif"]
+  		sans: ["Archivo Narrow", "serif"],
+  		serif: ["Bebas Neue", "serif"]
   	},
-		screens: {
-      sm: { max: "320px"},
-      md: { max: "375px", min: "321px" },
-      lg: { max: "425px", min: "376px"},
-      xl: { max: "768px", min: "426px"},
-      xxl: { max: "1024px", min: "769px" },
-			exl: { max: "1440px", min: "1025px" },
-			exxl: { max: "2564px", min: "1441px" }
-    }
+  	screens: {
+  		sm: {
+  			max: '320px'
+  		},
+  		md: {
+  			max: '375px',
+  			min: '321px'
+  		},
+  		lg: {
+  			max: '425px',
+  			min: '376px'
+  		},
+  		xl: {
+  			max: '768px',
+  			min: '426px'
+  		},
+  		xxl: {
+  			max: '1024px',
+  			min: '769px'
+  		},
+  		exl: {
+  			max: '1440px',
+  			min: '1025px'
+  		},
+  		exxl: {
+  			max: '2564px',
+  			min: '1441px'
+  		}
+  	}
   },
   plugins: [require("tailwindcss-animate")],
 }

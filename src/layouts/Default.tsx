@@ -51,8 +51,12 @@ export function Default() {
               Suporte
             </h1>
             <span className="flex flex-col gap-1.5 sm:text-sm md:text-sm lg:text-sm xl:text-sm exxl:text-lg">
-              <h3 className="cursor-pointer hover:underline">Fale Conosco</h3>
-              <h3 className="cursor-pointer hover:underline">FAQ</h3>
+              <Link to="/suporte" className="cursor-pointer hover:underline">
+                Fale Conosco
+              </Link>
+              <Link to="/suporte" className="cursor-pointer hover:underline">
+                FAQ
+              </Link>
             </span>
           </div>
 
