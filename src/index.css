@@ -70,3 +70,9 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
+.gradient-blue {
+  background: linear-gradient(90deg, #2e3393, #1cfafc);
+  -webkit-background-clip: text;
+  color: transparent;
+}

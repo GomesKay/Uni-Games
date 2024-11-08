@@ -3,7 +3,7 @@ import { ArrowRight } from "@phosphor-icons/react"
 
 export function Download() {
   return (
-    <main className="h-screen pt-12 text-white">
+    <main className="h-full pt-12 text-white">
       <div className="flex flex-col items-center justify-center gap-6">
         <h1 className="text-gradient text-center text-5xl font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-3xl xxl:text-4xl exxl:text-6xl">
           A plataforma de vendas de jogos ideal <br /> para desenvolvedores e

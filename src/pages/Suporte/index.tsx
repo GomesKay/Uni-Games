@@ -14,7 +14,7 @@ export function Suporte() {
   }, [])
 
   return (
-    <main className="flex h-screen flex-col justify-center pt-24 text-white">
+    <main className="flex h-full flex-col justify-center pt-24 text-white">
       <div className="flex justify-center gap-44 sm:flex-col sm:items-center sm:gap-20 md:flex-col md:items-center md:gap-20 lg:flex-col lg:items-center lg:gap-20 xl:flex-col xl:items-center xl:gap-20 xxl:flex-col xxl:items-center xxl:gap-20 exl:flex-col exl:items-center exl:gap-20">
         <h1 className="text-5xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-3xl">
           Perguntas Frequentes | FAQ
